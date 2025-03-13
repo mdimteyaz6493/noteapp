@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon noteappbackend/notes-app/server.js",
+    "dev": "nodemon noteappbackend/notes-app/index.js",
     "build": "npm install && npm install --prefix noteappfront/client && npm run build --prefix noteappfront/client",
-    "start": "nodemon noteappbackend/notes-app/server.js",
+    "start": "nodemon noteappbackend/notes-app/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
